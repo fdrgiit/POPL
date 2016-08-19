@@ -1,0 +1,12 @@
+FIRST(a) = { #, L, V, W }
+FIRST(b) = { #, A, G, I, N }
+FIRST(c) = { D }
+FIRST(d) = { #, V, W }
+FIRST(e) = { # }
+FIRST(f) = { # }
+FOLLOW(a) = { $ }
+FOLLOW(b) = { A, G, I, N, R }
+FOLLOW(c) = { C, S }
+FOLLOW(d) = { $ }
+FOLLOW(e) = { $ }
+FOLLOW(f) = { $ }

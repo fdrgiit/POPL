@@ -1,0 +1,6 @@
+INT : at bt t3 av bv lv #
+REAL : ct gt dt cv gv #
+STRING : ft fv #
+BOOLEAN : et t1 t2 ev hv iv jv kv #
+mv : nv #
+

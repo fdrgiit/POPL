@@ -1,0 +1,10 @@
+FIRST(a) = { ID, STRING, VAR }
+FIRST(b) = { ID, STRING, VAR }
+FIRST(c) = { COLON, DO, GREATER, NUM }
+FIRST(d) = { DO, GREATER }
+FIRST(e) = { GREATER }
+FOLLOW(a) = { $ }
+FOLLOW(b) = { COLON, DO, GREATER, NUM }
+FOLLOW(c) = { ASSIGN, COLON, DO, GREATER, NUM }
+FOLLOW(d) = { $, INT }
+FOLLOW(e) = { END }

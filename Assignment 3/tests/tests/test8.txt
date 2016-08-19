@@ -1,0 +1,12 @@
+TYPE
+
+at : bt;
+ct, dt, et, at : INT;
+
+VAR
+ a : at;
+ 
+{
+   x = 10;
+}
+

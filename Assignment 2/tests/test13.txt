@@ -1,0 +1,5 @@
+s #
+a b c d e f #
+s -> a b c #
+s -> d e f #
+##

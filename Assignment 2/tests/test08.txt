@@ -1,0 +1,15 @@
+a b c d e #
+VAR ID COMMA STRING ASSIGN COLON NUM INT DO END GREATER DOT LTEQ #
+a -> b c d #
+b -> VAR b #
+b -> ID COMMA #
+b -> STRING c #
+c -> c ASSIGN #
+c -> COLON #
+c -> NUM #
+c -> d INT #
+d -> DO d #
+d -> e END #
+e -> GREATER DOT LTEQ # 
+##
+

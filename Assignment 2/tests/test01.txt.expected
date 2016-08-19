@@ -1,0 +1,6 @@
+FIRST(decl) = { ID }
+FIRST(idList1) = { #, COMMA }
+FIRST(idList) = { ID }
+FOLLOW(decl) = { $ }
+FOLLOW(idList1) = { COLON }
+FOLLOW(idList) = { COLON }

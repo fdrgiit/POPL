@@ -1,0 +1,14 @@
+expr term factor uniterm digit #
+PLUS MINUS MULT DIV LPAREN RPAREN VAR NUM REALNUM #
+expr -> term PLUS expr #
+expr -> term MINUS expr #
+expr -> term #
+term -> factor MULT term #
+term -> factor DIV term #
+term -> factor #
+factor -> LPAREN expr RPAREN #
+VAR -> NUM #
+R -> NUM DIV NUM #
+factor -> REALNUM #
+ ##
+

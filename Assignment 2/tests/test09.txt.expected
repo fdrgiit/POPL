@@ -1,0 +1,12 @@
+FIRST(a) = { #, DIV, LPAREN, WHILE }
+FIRST(b) = { #, INT, NUM, REALNUM, STRING }
+FIRST(c) = { ID }
+FIRST(d) = { #, DIV, WHILE }
+FIRST(e) = { # }
+FIRST(f) = { # }
+FOLLOW(a) = { $ }
+FOLLOW(b) = { INT, NUM, REALNUM, RPAREN, STRING }
+FOLLOW(c) = { COMMA, SEMICOLON }
+FOLLOW(d) = { $ }
+FOLLOW(e) = { $ }
+FOLLOW(f) = { $ }

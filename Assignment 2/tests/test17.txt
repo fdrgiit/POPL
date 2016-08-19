@@ -1,0 +1,27 @@
+a b c d e f #
+L R I S N A G D C V U W #
+a -> L b R #
+a -> d e #
+b -> #
+b -> b I c S #
+b -> b N c S #
+b -> b A c S #
+b -> b G c S # ##
+c -> D #
+c -> c C D #
+d -> #
+d -> V V U #
+d -> W d #
+e -> f e #
+e -> f #
+f -> #
+
+z -> hello B L I #
+z -> b G e #
+j -> #
+N -> #
+I -> I R A N #
+U -> U S A #
+u -> a b c w y x #
+##
+

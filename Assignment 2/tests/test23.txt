@@ -1,0 +1,11 @@
+expr term factor #
+PLUS MINUS LPAREN RPAREN NUM #
+expr -> term PLUS expr #
+expr -> term MINUS expr #
+expr -> term #
+term -> factor #
+NUM -> factor #
+factor -> LPAREN expr RPAREN #
+factor -> NUM #
+##
+

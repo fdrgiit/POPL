@@ -1,0 +1,10 @@
+FIRST(s) = { BEGIN }
+FIRST(b) = { #, ASSIGN, DO }
+FIRST(c) = { ID }
+FIRST(d) = { NUM, REALNUM }
+FIRST(e) = { NUM, REALNUM }
+FOLLOW(s) = { $ }
+FOLLOW(b) = { END }
+FOLLOW(c) = { COLON, EQUAL }
+FOLLOW(d) = { COMMA, DIV, END }
+FOLLOW(e) = { END }

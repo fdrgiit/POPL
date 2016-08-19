@@ -1,0 +1,12 @@
+FIRST(u) = { IF }
+FIRST(v) = { LPAREN }
+FIRST(w) = { ID }
+FIRST(x) = { ID, NUM, REALNUM }
+FIRST(y) = { ID, NUM, REALNUM }
+FIRST(z) = { ID }
+FOLLOW(u) = { $ }
+FOLLOW(v) = { THEN }
+FOLLOW(w) = { DOT, END, ID }
+FOLLOW(x) = { RPAREN }
+FOLLOW(y) = { EQUAL, GREATER, GTEQ, LESS, LTEQ, NOTEQUAL, RPAREN, SEMICOLON }
+FOLLOW(z) = { DOT, END, ID }

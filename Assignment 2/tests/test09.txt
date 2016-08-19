@@ -1,0 +1,18 @@
+a b c d e f #
+LPAREN  RPAREN  INT  ID  SEMICOLON  NUM  REALNUM STRING COMMA DIV UNDERSCORE WHILE #
+a -> LPAREN b RPAREN #
+a -> d e #
+b -> #
+b -> b INT c SEMICOLON #
+b -> b NUM c SEMICOLON #
+b -> b REALNUM c SEMICOLON #
+b -> b STRING c SEMICOLON #
+c -> ID #
+c -> c COMMA ID #
+d -> #
+d -> DIV DIV UNDERSCORE #
+d -> WHILE d #
+e -> f e #
+e -> f #
+f -> #     ##
+

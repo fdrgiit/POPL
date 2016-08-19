@@ -1,0 +1,6 @@
+FIRST(expr) = { LPAREN, NUM, REALNUM }
+FIRST(term) = { LPAREN, NUM, REALNUM }
+FIRST(factor) = { LPAREN, NUM, REALNUM }
+FOLLOW(expr) = { $, RPAREN }
+FOLLOW(term) = { $, MINUS, PLUS, RPAREN }
+FOLLOW(factor) = { $, DIV, MINUS, MULT, PLUS, RPAREN }

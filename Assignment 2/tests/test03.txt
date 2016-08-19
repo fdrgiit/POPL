@@ -1,0 +1,13 @@
+s b c d e #
+BEGIN END ASSIGN EQUAL DIV DO COLON ID NUM REALNUM COMMA #
+s -> BEGIN b END #
+b -> #
+b -> ASSIGN c EQUAL d DIV d #
+b -> DO c COLON e #
+c -> ID #
+d -> NUM #
+d -> REALNUM #
+e -> d #
+e -> d COMMA e # 
+##
+

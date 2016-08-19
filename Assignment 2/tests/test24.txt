@@ -1,0 +1,10 @@
+expr term factor #
+PLUS MINUS LPAREN ID RPAREN NUM #
+expr -> term PLUS expr #
+expr -> term MINUS expr #
+expr -> term #
+term -> factor #
+factor -> LPAREN expr RPAREN #
+factor -> NUM #
+##
+

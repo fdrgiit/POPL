@@ -1,0 +1,8 @@
+FIRST(s) = { C }
+FIRST(a) = { C }
+FIRST(b) = { C }
+FIRST(c) = { # }
+FOLLOW(s) = { $ }
+FOLLOW(a) = { A }
+FOLLOW(b) = { B }
+FOLLOW(c) = { C }

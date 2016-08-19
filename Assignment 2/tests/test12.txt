@@ -1,0 +1,19 @@
+u v w x y z #
+IF THEN END DOT LPAREN RPAREN EQUAL NOTEQUAL GREATER LESS LTEQ GTEQ ID NUM REALNUM COLON SEMICOLON #
+u -> IF v THEN w END #
+u -> IF v THEN w DOT w END #
+v -> LPAREN x RPAREN #
+x -> y EQUAL y #
+x -> y NOTEQUAL y #
+x -> y GREATER y #
+x -> y LESS y #
+x -> y LTEQ y #
+x -> y GTEQ y #
+y -> ID #
+y -> NUM #
+y -> REALNUM #
+w -> w z #
+w -> z #
+z -> ID EQUAL COLON y SEMICOLON #
+##
+

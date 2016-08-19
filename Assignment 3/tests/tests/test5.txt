@@ -1,0 +1,30 @@
+TYPE
+   at : INT;
+   bt : at;
+   ct : dt;
+   et : BOOLEAN;
+   ft : STRING;
+   gt : REAL;
+
+ VAR  
+   av : at;   bv : bt;   cv : ct;   ev : et;   fv : ft;   gv : gt;
+   hv : t1;   iv : t1;   jv : t2;   kv : t2;   lv : t3;
+
+ {
+    av = 1;
+    bv = av + lv;
+    WHILE jv < iv
+    {
+       av = av+1;
+    }
+
+    WHILE jv
+    {
+       av = av+1;
+    }
+
+    bv = av;
+    cv = 1.0;
+    mv = nv;
+ }
+
