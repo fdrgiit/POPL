@@ -1,0 +1,10 @@
+2 37 xyz 
+2 33 .
+2 34 1234 
+2 37 int 
+4 37 abcd456xyz 
+4 33 .
+4 34 0 
+4 37 real 
+6 35 xyz.1234INT 
+8 36 abcd456xyz.0REAL 

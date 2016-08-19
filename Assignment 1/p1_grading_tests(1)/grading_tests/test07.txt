@@ -1,0 +1,10 @@
+
+
+WHILE.11REAL
+
+>>>>>>>
+
+0101010100INT.INT.REAL.IF.2INT
+
+<<<<<<
+
